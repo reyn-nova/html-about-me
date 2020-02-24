@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+img {
+    object-fit: cover;
+}
+
 .header {
     background-color: #ebebeb;
     height: 60px;
@@ -205,6 +209,7 @@ body {
         margin-left: 0;
         margin-right: 0;
         margin-top: 10px;
+        text-align: center;
     }
 
     .detail p {
@@ -278,6 +283,7 @@ body {
         margin-left: 0;
         margin-right: 0;
         margin-top: 10px;
+        text-align: center;
     }
 
     .detail p {
