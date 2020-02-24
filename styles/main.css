@@ -1,0 +1,139 @@
+body {
+    background-color: #243754;
+    margin: 0;
+}
+
+.header {
+    background-color: #ebebeb;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header h1 {
+    color: #243754;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    /*FOR CENTER VERICALLY*/
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.identity {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.identity img {
+    height: 300px;
+    width: 300px;
+}
+
+.identity h3 {
+    background-color: #ebebeb;
+    color: #1f1d08;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.photo {
+    border: 4px solid #ebebeb;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+}
+
+.detail-link {
+    text-decoration: none;
+}
+
+.detail {
+    align-items: center;
+    background-color: #94ae3f;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.detail:hover {
+    background-color: #243754;
+}
+
+.detail:active {
+    background-color: #ebebeb;
+}
+
+.detail-logo {
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 8px;
+}
+
+.detail-logo img {
+    height: 48px;
+    width: 48px;
+}
+
+.detail h3 {
+    color: #ebebeb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.detail p {
+    color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 810px) {
+    .content-container {
+        align-items: center;
+        background-color: #1f1d08;
+        display: flex;
+        flex-direction: row;
+        height: calc(100vh - 20px);
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .details-container {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .content-container {
+        align-items: center;
+        background-color: #1f1d08;
+        justify-content: center;
+        padding-bottom: 0.1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .details-container {
+        margin-top: 50px;
+    }
+}
